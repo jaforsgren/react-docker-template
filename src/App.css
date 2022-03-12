@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(255, 255, 255);
+  height: 75px;
+  padding: 20px;
+  color: white;
+}
+.App-header h2{
+  color: rgb(3, 3, 3);
+}
+
+
+.App-title {
+  font-size: 1.25em;
+  color: black;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
